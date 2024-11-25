@@ -63,8 +63,8 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
-.title-button:hover,
-.title-button:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
 }
 .name-descr {
