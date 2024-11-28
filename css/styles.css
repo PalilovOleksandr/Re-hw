@@ -222,3 +222,6 @@ ol {
 .list-descr {
   width: calc ((100% - 3 * 24px) / 4);
 }
+.visually-hidden {
+  overflow: hidden;
+}
