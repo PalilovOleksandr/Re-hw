@@ -243,9 +243,6 @@ ol {
 .list-descr {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
-.visually-hidden {
-  overflow: hidden;
-}
 .team-menu {
   display: flex;
   gap: 24px;
@@ -257,7 +254,7 @@ ol {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
-  row-gap: 24px;
+  row-gap: 48px;
 }
 .cont-portf {
   padding: 32px 16px;
