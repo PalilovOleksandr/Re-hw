@@ -7,10 +7,11 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
+  margin-right: 76px;
 }
 .relogo {
   color: #4d5ae5;
@@ -21,6 +22,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 .list-nav:hover {
   color: #404bbf;
@@ -48,7 +50,7 @@ body {
 .title-hero {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -87,7 +89,7 @@ body {
 .title-team {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -113,7 +115,7 @@ body {
 .title-portf {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -155,8 +157,51 @@ a {
 .logo-footer {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+}
+img {
+  display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.page-nav {
+  border-bottom: 1px solid #e7e9fc;
+}
+.nav-cont {
+  display: flex;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu-nav {
+  display: flex;
+  gap: 40px;
+}
+.menu-contacts {
+  display: flex;
+  margin-left: 332px;
+  gap: 40px;
 }
