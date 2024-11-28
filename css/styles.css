@@ -81,6 +81,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .text-descr {
   font-weight: 400;
@@ -213,4 +214,11 @@ ol {
 }
 .section {
   padding: 120px 0;
+}
+.descr {
+  display: flex;
+  gap: 24px;
+}
+.list-descr {
+  width: calc ((100% - 3 * 24px) / 4);
 }
