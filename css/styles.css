@@ -46,6 +46,7 @@ body {
 }
 .page-hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .title-hero {
   font-weight: 700;
@@ -54,6 +55,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
 }
 .hero-button {
   font-weight: 500;
@@ -64,6 +66,10 @@ body {
   background-color: #4d5ae5;
   border-radius: 4px;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -204,4 +210,7 @@ ol {
   display: flex;
   margin-left: 332px;
   gap: 40px;
+}
+.section {
+  padding: 120px 0;
 }
